@@ -47,7 +47,7 @@ function SignIn() {
   );
 }
 
-function SignOut() {
+/* function SignOut() {
   return (
     auth.currentUser && (
       <button className='sign-out' onClick={() => auth.signOut()}>
@@ -55,7 +55,7 @@ function SignOut() {
       </button>
     )
   );
-}
+} */
 
 function ChatRoom() {
   const dummy = useRef();
